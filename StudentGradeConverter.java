@@ -1,6 +1,6 @@
 //Student Grade Calculator.
 import java.util.Scanner;
-public class Task_2_JD {
+public class StudentGradeConverter {
     public static void main(String[]args){
         Scanner scan = new Scanner(System.in);
         int subject;
@@ -59,4 +59,5 @@ public class Task_2_JD {
 
 
     
+
 
