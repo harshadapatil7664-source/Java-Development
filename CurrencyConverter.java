@@ -25,7 +25,7 @@ public class CurrencyConverter {
             System.out.print("Enter target currency: ");
             String target = scan.next().trim().toUpperCase();
 
-            String apiKey = "23e0a99758620f0b012e8e6c";
+            String apiKey = "YOUR_KEY";
             String url = "https://v6.exchangerate-api.com/v6/" + apiKey + "/latest/" + base;
 
             HttpClient client = HttpClient.newHttpClient();
@@ -73,3 +73,4 @@ public class CurrencyConverter {
         }
     }
 }
+
